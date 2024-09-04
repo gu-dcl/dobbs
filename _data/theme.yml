@@ -38,8 +38,8 @@ locations-stopwords: # set of subjects separated by ; that will be removed from 
 # MAP PAGE
 #
 # see _data/map-config.csv for field display options
-latitude: 46.727485 #to determine center of map
-longitude: -117.014185 #to determine center of map
+latitude: 4.384345003799656 #to determine center of map
+longitude: 21.572356650088707 #to determine center of map
 zoom-level: 5 # zoom level for map 
 map-base: Esri_WorldStreetMap # set default base map, choose from: Esri_WorldStreetMap, Esri_NatGeoWorldMap, Esri_WorldImagery, OpenStreetMap_Mapnik
 map-search: true # true/false, not suggested with large collections
@@ -60,7 +60,7 @@ year-nav-increment: 5 # set increments when auto gen nav years
 # comma delimited list, reference url is automatic
 metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format"
+metadata-facets-fields: "subject,creator,location"
 
 ##########
 # COMPOUND OBJECTS
@@ -71,7 +71,7 @@ metadata-facets-fields: "subject,creator,format"
 map-child-objects: true # true / false - if true, and if child item has latitude and longitude, child objects will be displayed on map
 timeline-child-objects: true # true / false - if true, and if child object has date, child objects will appear as thumbnails on timeline page
 data-child-objects: true # true / false - if true, child objects will appear linked in table on data page
-carousel-child-objects: false # true / false - if true, child objects will appear on homepage carousel
+carousel-child-objects: true # true / false - if true, child objects will appear on homepage carousel
 browse-child-objects: true # true / false - if true, child objects will appear on browse page and child objects' metadata will populate cloud pages like Subjects page and Locations page, as well as featured terms boxes on the home page
 search-child-objects: true # true / false - if true, child objects will appear on on search page along with parent objects
 
